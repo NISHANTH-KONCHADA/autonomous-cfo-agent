@@ -1,0 +1,20 @@
+{
+  "name": "autonomous-cfo-agent",
+  "version": "1.0.0",
+  "description": "Autonomous CFO Agent: on-chain budget governance, x402 automated vendor micro-payments, and AI waste detection",
+  "private": true,
+  "scripts": {
+    "test": "npm run test --prefix contracts && npm run test --prefix backend",
+    "test:contracts": "npm run test --prefix contracts",
+    "test:backend": "npm run test --prefix backend",
+    "compile:contracts": "npm run compile --prefix contracts",
+    "dev": "node scripts/dev.js",
+    "demo": "npm run demo --prefix backend",
+    "demo:fast": "npm run demo:fast --prefix backend",
+    "demo:fallback": "npm run demo:fallback --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "dotenv": "^16.4.7"
+  }
+}
